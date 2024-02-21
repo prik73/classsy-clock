@@ -1,0 +1,23 @@
+body {
+    background-color: #ffffff;
+    /* Initial background color */
+    color: #000000;
+    /* Initial text color */
+    font-family: Courier New, monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+#clock {
+    font-size: 3em;
+    transition: color 0.3s;
+}
+
+.invert-colors-x {
+    background-color: #000000 !important;
+    color: #ffffff !important;
+}
